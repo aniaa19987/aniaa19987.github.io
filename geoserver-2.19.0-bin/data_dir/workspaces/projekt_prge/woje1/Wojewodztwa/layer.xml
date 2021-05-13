@@ -1,0 +1,16 @@
+<layer>
+  <name>Wojewodztwa</name>
+  <id>LayerInfoImpl-2ee0eccf:17964c4d7b1:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2ee0eccf:17964c4d7b1:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-05-13 08:17:33.247 UTC</dateCreated>
+</layer>

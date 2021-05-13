@@ -1,0 +1,62 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-2ee0eccf:17964c4d7b1:-7ffb</id>
+  <name>Wojewodztwa</name>
+  <nativeName>Wojewodztwa</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-2ee0eccf:17964c4d7b1:-7ffe</id>
+  </namespace>
+  <title>Wojewodztwa</title>
+  <keywords>
+    <string>features</string>
+    <string>Wojewodztwa</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;ETRS89 / Poland CS92&quot;, &#xd;
+  GEOGCS[&quot;ETRS89&quot;, &#xd;
+    DATUM[&quot;European Terrestrial Reference System 1989&quot;, &#xd;
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], &#xd;
+      AUTHORITY[&quot;EPSG&quot;,&quot;6258&quot;]], &#xd;
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+    UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+    AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;4258&quot;]], &#xd;
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], &#xd;
+  PARAMETER[&quot;central_meridian&quot;, 19.0], &#xd;
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], &#xd;
+  PARAMETER[&quot;scale_factor&quot;, 0.9993], &#xd;
+  PARAMETER[&quot;false_easting&quot;, 500000.0], &#xd;
+  PARAMETER[&quot;false_northing&quot;, -5300000.0], &#xd;
+  UNIT[&quot;m&quot;, 1.0], &#xd;
+  AXIS[&quot;Easting&quot;, EAST], &#xd;
+  AXIS[&quot;Northing&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;2180&quot;]]</nativeCRS>
+  <srs>EPSG:2180</srs>
+  <nativeBoundingBox>
+    <minx>171677.54416667484</minx>
+    <maxx>861895.7628423255</maxx>
+    <miny>133223.7250104649</miny>
+    <maxy>775019.1480056904</maxy>
+    <crs class="projected">EPSG:2180</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>13.897673979690806</minx>
+    <maxx>24.621414836282987</maxx>
+    <miny>48.96041622261417</miny>
+    <maxy>54.838423709261235</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-2ee0eccf:17964c4d7b1:-7ffc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

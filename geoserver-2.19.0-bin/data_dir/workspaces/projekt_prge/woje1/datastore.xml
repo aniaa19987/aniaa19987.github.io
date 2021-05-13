@@ -1,0 +1,24 @@
+<dataStore>
+  <id>DataStoreInfoImpl-2ee0eccf:17964c4d7b1:-7ffc</id>
+  <name>woje1</name>
+  <description>wojew</description>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-2ee0eccf:17964c4d7b1:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Europe/Belgrade</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">prge_projekt</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file://C:\Users\aniaa\Desktop\8_semestr\Programowanie geoportali\Laboratoria\lab\Wojewodztwa\Wojewodztwa.shp</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2021-05-13 08:17:12.11 UTC</dateCreated>
+</dataStore>
