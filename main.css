@@ -69,3 +69,7 @@ figure {
   margin: 8px;
   padding: 0px;
 }
+#mymap {
+  height: 70vh;
+  width: auto;
+}
