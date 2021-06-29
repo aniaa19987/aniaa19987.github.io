@@ -19,7 +19,7 @@ var baseMaps = {
     "Google Satelita":lyrGoogleHyb,
   };
 
-lyrWoj = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms", 
+lyrPowierzchnia = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms", 
             {
             layers: "	prge:ADMAREA_AFT", 
             format: 'image/png', 
@@ -28,7 +28,7 @@ lyrWoj = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms",
             });
 
 
-lyrDr = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms", 
+lyrLinia = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms", 
             {
             layers: "prge:ADMBNDL_LFT", 
             format: 'image/png', 
@@ -36,7 +36,7 @@ lyrDr = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms",
             version : '1.1.1'
             });
 
-lyrBud = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms", 
+lyrPunkt = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms", 
             {
             layers: "prge:BRIDGEC_PFT", 
             format: 'image/png', 
@@ -45,9 +45,9 @@ lyrBud = L.tileLayer.wms("http://localhost:8080/geoserver/prge/wms",
             });
 
     var overlays = {
-                "Wojwództwa": lyrWoj,
-                "Wybrane drogi": lyrDr,
-                "Wybrane miejscowości": lyrBud
+                "Powierzchniowe": lyrPowierzchnia,
+                "Liniowe": lyrLinia,
+                "Punktowe": lyrPunkt
               };
 
 L.control.layers(baseMaps, overlays).addTo(mymap);
