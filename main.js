@@ -41,12 +41,23 @@ $(document).ready(function () {
     }
   );
 
+  var lyrMaz = L.tileLayer.wms(
+    "http://localhost:8080/geoserver/projekt_prge/wms",
+    {
+      layers: "projekt_prge:mazowieckie",
+      format: "image/png",
+      transparent: "true",
+      version: "1.1.1",
+    }
+  );
+
   var baseMaps = {
     Openstreetmap: lyrOSM,
     Województwa: lyrPRG,
     "Mapa Topograficzna": lyrTopo,
     "Mapa Sozologiczna": lyrSozo,
     "Google Hybrid": lyrGoogleHyb,
+    Mazowieckie: lyrMaz,
   };
 
   //polecenie dodania ikonki

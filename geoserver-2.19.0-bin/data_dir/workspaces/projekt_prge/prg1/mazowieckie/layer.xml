@@ -1,0 +1,16 @@
+<layer>
+  <name>mazowieckie</name>
+  <id>LayerInfoImpl-2398b4fb:179e5e21642:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2398b4fb:179e5e21642:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-06-07 10:04:55.470 UTC</dateCreated>
+</layer>

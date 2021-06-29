@@ -1,0 +1,63 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-2398b4fb:179e5e21642:-7ffb</id>
+  <name>mazowieckie</name>
+  <nativeName>mazowieckie</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-2ee0eccf:17964c4d7b1:-7ffe</id>
+  </namespace>
+  <title>mazowieckie</title>
+  <keywords>
+    <string>features</string>
+    <string>mazowieckie</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;ETRS89 / Poland CS92&quot;, &#xd;
+  GEOGCS[&quot;ETRS89&quot;, &#xd;
+    DATUM[&quot;European Terrestrial Reference System 1989&quot;, &#xd;
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], &#xd;
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], &#xd;
+      AUTHORITY[&quot;EPSG&quot;,&quot;6258&quot;]], &#xd;
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+    UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+    AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;4258&quot;]], &#xd;
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], &#xd;
+  PARAMETER[&quot;central_meridian&quot;, 19.0], &#xd;
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], &#xd;
+  PARAMETER[&quot;scale_factor&quot;, 0.9993], &#xd;
+  PARAMETER[&quot;false_easting&quot;, 500000.0], &#xd;
+  PARAMETER[&quot;false_northing&quot;, -5300000.0], &#xd;
+  UNIT[&quot;m&quot;, 1.0], &#xd;
+  AXIS[&quot;Easting&quot;, EAST], &#xd;
+  AXIS[&quot;Northing&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;2180&quot;]]</nativeCRS>
+  <srs>EPSG:2180</srs>
+  <nativeBoundingBox>
+    <minx>517613.878040235</minx>
+    <maxx>781450.358458018</maxx>
+    <miny>352474.636600213</miny>
+    <maxy>627243.164202314</maxy>
+    <crs class="projected">EPSG:2180</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>19.251303924184313</minx>
+    <maxx>23.238929986218746</maxx>
+    <miny>50.97020995606078</miny>
+    <maxy>53.509851494417575</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-2398b4fb:179e5e21642:-7ffc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

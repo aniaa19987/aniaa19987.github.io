@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl-2398b4fb:179e5e21642:-7ffc</id>
+  <name>prg1</name>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-2ee0eccf:17964c4d7b1:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Europe/Belgrade</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">prge_projekt</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file://C:\Users\aniaa\Desktop\8_semestr\Programowanie geoportali\Laboratoria\lab\mazowieckie.shp</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2021-06-07 10:03:46.250 UTC</dateCreated>
+</dataStore>
